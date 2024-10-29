@@ -1,0 +1,127 @@
+/* custom.css */
+.custom-header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;  /* You can change this to your desired size */
+    margin: 1.5rem 0;
+    padding: 1rem 2rem;
+  }
+  
+  .custom-header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .custom-header-link {
+    font-size: 1.25rem;
+    margin-right: 1rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .custom-header-link:hover {
+    text-decoration: underline;
+  }
+  
+  .nav-link {
+    font-family: sans-serif;
+    font-size: 16px; 
+    color: inherit;
+  }
+  
+
+  .wecollect_header {
+    font-size: 3rem;
+    line-height: 45px;
+  }
+  
+.wecollect_css{
+  background-color: #242020;}
+  @media (min-width: 768px) {
+    .wecollect_header {
+      font-size: 3rem; 
+    }
+  }
+  
+  .wecollect_header {
+    font-weight: 700; /* Equivalent to font-bold */
+    margin-bottom: 1rem; /* Equivalent to mb-4 */
+    font-family: "Times New Roman", serif; /* Equivalent to font-serif */
+    animation: zoomIn 0.5s ease-in-out; /* Equivalent to animate-zoomIn */
+  }
+  
+  @keyframes zoomIn {
+    from {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+
+  /* paragraph */
+
+  .wecollect_paragraph {
+    font-size: 1.125rem; 
+    margin-bottom: 1.5rem; 
+    font-family: "Times New Roman", serif; 
+    animation: runningText 10s linear 1; /* Run animation once over 10 seconds */
+  }
+  
+  @media (min-width: 768px) {
+    .wecollect_paragraph {
+      font-size: 1.25rem; /* Equivalent to text-xl */
+    }
+  }
+  
+ 
+
+  @keyframes slideUpSlow {
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-slideUpSlow {
+    animation: slideUpSlow 3s ease-in-out;
+  }
+  
+  .partenr_logo{
+    width: 220px;
+    height: 90px;
+    box-shadow: 0 3.5979249477px 12.5927381516px 0 rgba(0, 0, 0, .251);
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 20px 10px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 60%;
+}
+
+.partner_about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.aboutus_bottom_areaL_screen_bg{
+  width: 300px;
+  height: auto;
+  position: absolute;
+  left: 0;
+  bottom: -180px;
+  z-index: 1;
+}
+
+
+  
